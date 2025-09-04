@@ -212,12 +212,22 @@ margin: 0 auto;
 /* ----------TEAM------------ */
 .sectionthree {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-item {
   background-color: #ffffff;
   display: flex;
   align-items: center;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.container-team {
+    padding: 32px 0;
 }
 .team-title {
   font-weight: 700;
@@ -227,6 +237,7 @@ margin: 0 auto;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-name {
   font-weight: 500;
@@ -235,6 +246,8 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-work {
   font-weight: 400;
@@ -243,6 +256,7 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  text-align: center;
 }
 /* --------Footer---------- */
 
@@ -254,7 +268,8 @@ margin: 0 auto;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-container {
 padding-top: 100px;
@@ -275,9 +290,10 @@ padding-left: 156px;
 }
 .footercolor {
   background-color: #2e2f42;
+  padding: 100px 0;
   
 }
-/* -----------SECTION 3------------- */
+/* -----------SECTION 4 ------------- */
 .portfolio {
   font-weight: 700;
   font-size: 36px;
