@@ -55,8 +55,6 @@ margin: 0 auto;
 /* ----------HEADER---------- */
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 28px;
-    padding-bottom: 28px;
 }
  .header-container {
     display: flex;
@@ -146,9 +144,7 @@ margin: 0 auto;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  
-
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     max-width: 496px;
     margin: 0 auto;
 }
@@ -167,6 +163,7 @@ margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  margin-top: 48px;
 
 }
 
@@ -179,8 +176,6 @@ margin: 0 auto;
 /* --------FEATURE-------- */
 
 .features-lists {
-    padding-top: 120px;
-    padding-bottom: 120px;
     display: flex;
     align-items: center;
     gap: 24px;
@@ -216,7 +211,6 @@ margin: 0 auto;
 }
 .team-item {
   background-color: #ffffff;
-  display: flex;
   align-items: center;
   flex-direction: column;
   gap: 24px;
@@ -287,7 +281,6 @@ margin: 0 auto;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
   margin-bottom: 8px;
   
 }
@@ -302,7 +295,6 @@ margin: 0 auto;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 /* --------Footer---------- */
 
@@ -332,7 +324,6 @@ padding-left: 156px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  padding-top: 16px;
 }
 .footercolor {
   background-color: #2e2f42;
