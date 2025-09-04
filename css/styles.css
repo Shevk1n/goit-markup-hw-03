@@ -24,6 +24,26 @@ ol {
 a {
   text-decoration: none;
 }
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /*  ------------ CONTAINER -------------- */
 .container {
     width: 1158px;
@@ -115,18 +135,20 @@ margin: 0 auto;
 /* -----------HERO----------- */
 .hero {
   background: #2e2f42;
+  padding: 188px 0;
+  
 }
+ 
 .hero-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  align-items: center;
-    padding-top: 188px;
-    padding-bottom: 292px;
+  
+
+    padding-bottom: 48px;
     max-width: 496px;
     margin: 0 auto;
 }
@@ -139,6 +161,13 @@ margin: 0 auto;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+
 }
 
 .hero-btn-blue:hover,
@@ -156,6 +185,12 @@ margin: 0 auto;
     align-items: center;
     gap: 24px;
 }
+.features-listt {
+    width: calc((100% - 72px) / 4);
+}
+.section-features {
+    padding: 120px 0;
+}
 
 .features-strategy {
   font-family: "Roboto", sans-serif;
@@ -164,6 +199,7 @@ margin: 0 auto;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .features-list {
   font-family: "Roboto", sans-serif;
